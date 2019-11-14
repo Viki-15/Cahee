@@ -1,0 +1,66 @@
+.info {
+    &__title {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 60px;
+        font-weight: 800;
+        text-transform: capitalize;
+        padding-top: 250px;
+        margin-left: -4px;
+
+        @media screen and (max-width: 991px) {
+            font-size: 50px;
+        }
+
+        @media screen and (max-width: 767px) {
+            padding-top: 150px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 40px;
+        }
+    }
+
+    &__text {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-top: 19px;
+        margin-bottom: 45px;
+
+        @media screen and (max-width: 767px) {
+            font-size: 15px;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        width: 100%;
+        /*решить с размером xs*/
+        color: white;
+        font-family: 'Raleway';
+        font-size: 20px;
+        font-weight: 300;
+        background-color: #ff6033;
+        border: 3px solid #ff6033;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        padding: 12px 22px;
+
+        @media screen and (max-width: 575px) {
+            width: 50%;
+            font-size: 15px;
+        }
+    }
+
+
+    &__link:hover,
+    &__link:active {
+        background-color: bisque;
+        border: 3px solid #ff6033;
+        color: #ff6033;
+        cursor: pointer;
+    }
+}

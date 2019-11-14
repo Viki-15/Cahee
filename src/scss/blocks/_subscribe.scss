@@ -1,0 +1,33 @@
+.subscribe {
+    &--background {
+        /* background-color: white; */
+        background-image: url(../img/BB.png);
+        background-position: 50% 0%;
+        background-repeat: no-repeat;
+        /* opacity: 0.5; */
+        padding-bottom: 73px;
+    }
+
+    &__title {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 140px;
+        margin-bottom: 19px;
+
+        @media screen and (max-width: 991px) {
+            font-size: 30px;
+            margin-top: 80px;
+        }
+    }
+
+    &__txt {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-left: -2px;
+    }
+}

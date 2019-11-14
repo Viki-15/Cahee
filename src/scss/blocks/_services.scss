@@ -1,0 +1,207 @@
+.services {
+    &--background {
+        background-color: #70BFFF;
+
+        @media screen and (max-width: 767px) {
+            padding-top: 50px;
+        }
+    }
+
+    &__list {
+        margin: 177px 0px 151px 0px;
+
+        @media screen and (max-width: 1199px) {
+            margin: 100px 0px 0px 0px;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin: 50px 0px 50px 0px;
+            position: relative;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin: 20px 0px 50px 0px;
+        }
+    }
+
+    &__item {
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
+        height: 100px;
+        display: flex;
+
+        @media screen and (max-width: 991px) {
+            height: 80px;
+        }
+
+        @media screen and (max-width: 767px) {
+            height: 100px;
+        }
+
+        @media screen and (max-width: 575px) {
+            height: 80px;
+        }
+    }
+
+    &__subtitle {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        flex-grow: 1;
+        align-self: center;
+
+        @media screen and (max-width: 991px) {
+            font-size: 18px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 22px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 16px;
+        }
+    }
+
+    &__icon {
+        border-width: 0 0 0 1px;
+        border-style: solid;
+        border-left-color: #9d9d9d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'retro-4-design-icons';
+        font-size: 42px;
+        height: 100px;
+        width: 100px;
+        float: right;
+
+        @media screen and (max-width: 991px) {
+            font-size: 32px;
+            height: 80px;
+            width: 80px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 48px;
+            height: 100px;
+            width: 100px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 32px;
+            height: 80px;
+            width: 80px;
+        }
+    }
+
+    .hand {
+        font-size: 50px;
+
+        @media screen and (max-width: 991px) {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 52px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 40px;
+        }
+    }
+
+    .earth {
+        font-size: 56px;
+
+        @media screen and (max-width: 991px) {
+            font-size: 46px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 58px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 46px;
+        }
+    }
+
+    .carrot {
+        font-size: 58px;
+
+        @media screen and (max-width: 991px) {
+            font-size: 46px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 60px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 46px;
+        }
+    }
+
+    &__item:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    &__tomato {
+        height: 100%;
+        background-image: url(/img/tomato.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        left: 53px;
+        top: -31px;
+
+        @media screen and (max-width: 1199px) {
+            overflow: hidden;
+        }
+
+        @media screen and (max-width: 991px) {
+            background-size: 100%;
+            position: relative;
+            left: 15px;
+            top: -15px;
+        }
+
+        @media screen and (max-width: 767px) {
+            background-image: none;
+            left: 0;
+        }
+    }
+
+    &__title {
+        color: white;
+        font-family: 'Raleway';
+        font-size: 90px;
+        font-weight: 700;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-left: -77px;
+
+
+        @media screen and (max-width: 1199px) {
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 991px) {
+            font-size: 56px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 40px;
+            text-align: center;
+            margin-left: 0px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.header {
+    background-image: url(../img/strawberry.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #F9F8FB;
+    // background-size: cover;
+    // opacity: 0.5;
+    padding-bottom: 64px;
+    overflow: hidden;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    &__scroll {
+        display: flex;
+        justify-content: center;
+        margin-top: 312px;
+
+        @media screen and (max-width: 1199px) {
+            margin-top: 275px;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin-top: 225px;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-top: 197px;
+        }
+    }
+
+    &__img:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,33 @@
+.footer {
+
+    &--background {
+        background-image: url(../img/fon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.5; */
+    }
+
+    &__title {
+        margin: 88px 0px 30px -3px;
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 90px;
+        font-weight: 700;
+        text-align: center;
+
+        @media screen and (max-width: 767px) {
+            font-size: 60px;
+        }
+    }
+
+    &__subtitle {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0px 22px;
+        margin-bottom: 18px;
+    }
+}

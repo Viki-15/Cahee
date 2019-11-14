@@ -1,0 +1,54 @@
+.gallery--background {
+  background-color: #FFE92F;
+  /* opacity: 0.5; */
+  padding-bottom: 120px; }
+
+.gallery__title {
+  color: #262626;
+  font-family: 'Raleway';
+  font-size: 90px;
+  font-weight: 700;
+  text-align: center;
+  margin: 90px 2px 29px 0px; }
+
+.gallery__txt {
+  color: #262626;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-bottom: 41px; }
+
+.gallery__btn {
+  margin-top: 21px; }
+
+.gallery__link {
+  text-decoration: none;
+  width: 200px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  background-color: #5585A2;
+  border: 3px solid #5585A2;
+  padding: 12px 30px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); }
+  .gallery__link:hover, .gallery__link:active {
+    color: #5585A2;
+    border: 3px solid #5585A2;
+    background-color: white; }
+
+img[class^=gallery__img] {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 25px; }
+
+img[class^=gallery__img]:hover {
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); }

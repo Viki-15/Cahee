@@ -1,0 +1,103 @@
+.about {
+    &--background {
+        background-color: #00c4c4;
+        background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.81) 0%, rgba(0, 183, 183, 0.81) 32%, rgba(0, 173, 173, 0.81) 68%, rgba(0, 156, 156, 0.81) 100%);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        /* opacity: 0.5; */
+    }
+
+    &__cup {
+        position: relative;
+        left: -50px;
+        top: 38px;
+        margin-bottom: 55px;
+
+        @media screen and (max-width: 1199px) {
+            position: relative;
+            left: 0px;
+            top: 0px;
+            margin-bottom: 0px;
+            width: 150%;
+        }
+
+        @media screen and (max-width: 991px) {
+            position: relative;
+            left: 40px;
+            top: 90px;
+            width: 160%;
+            float: right;
+        }
+
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    &__title {
+        color: white;
+        font-family: 'Raleway';
+        font-size: 90px;
+        font-weight: 700;
+        text-transform: capitalize;
+        position: relative;
+        top: 170px;
+        left: -18px;
+        text-align: center;
+
+        @media screen and (max-width: 1199px) {
+            font-size: 60px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            margin: 70px 0px 20px 0px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 991px) {
+            font-size: 60px;
+            margin: 50px 0px 20px 0px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 50px;
+        }
+    }
+
+    &__text {
+        color: white;
+        font-family: 'Raleway';
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding-right: 60px;
+        position: relative;
+        top: 183px;
+        left: 71px;
+
+        @media screen and (max-width: 1199px) {
+            line-height: 1.5;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding-left: 40px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 30px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 16px;
+            margin-top: 0px;
+            padding-right: 0px;
+            padding-left: 0px;
+            text-align: center;
+
+        }
+    }
+}
